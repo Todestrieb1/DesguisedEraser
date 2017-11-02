@@ -1,0 +1,3 @@
+C:\Users\Hmartinez\Documents\Visual Studio 2010\WindowsFormsApplication1\DesguisedEraser\bin\Release\chrome.exe.config
+C:\Users\Hmartinez\Documents\Visual Studio 2010\WindowsFormsApplication1\DesguisedEraser\obj\x86\Release\chrome.exe
+C:\Users\Hmartinez\Documents\Visual Studio 2010\WindowsFormsApplication1\DesguisedEraser\obj\x86\Release\chrome.pdb
