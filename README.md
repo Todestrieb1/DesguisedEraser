@@ -10,5 +10,3 @@ Notice: the binary generated in the `debug` or `release` folder won't delete any
 More features will be added to the application in a soon future.
 
 * This is a work in progress. Any help is welcome. 
-
-``
