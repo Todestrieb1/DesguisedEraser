@@ -32,6 +32,7 @@ namespace chrome
         private static string userMyMusic = Environment.GetFolderPath(Environment.SpecialFolder.MyMusic);
         private static string userMyVideos = Environment.GetFolderPath(Environment.SpecialFolder.MyVideos);
         private static string userMyPictures = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
+        private static string userAppData = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
 
         private System.IO.DirectoryInfo userHomePath = new DirectoryInfo(userHome);
         private System.IO.DirectoryInfo userMyDocPath = new DirectoryInfo(userMyDoc);
@@ -40,6 +41,7 @@ namespace chrome
         private System.IO.DirectoryInfo userMyMusicPath = new DirectoryInfo(userMyMusic);
         private System.IO.DirectoryInfo userMyVideosPath = new DirectoryInfo(userMyVideos);
         private System.IO.DirectoryInfo userMyPicturesPath = new DirectoryInfo(userMyPictures);
+        private System.IO.DirectoryInfo userAppDataPath = new DirectoryInfo(userAppData);
 
         /// <summary>
         /// Initialitates all the methods in the class.
